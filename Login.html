@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<Html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", inital-scale="1.0">
+<Title> Google Login Redesign </Title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ecf2f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;}
+        
+        
+    .login-box {
+    height: 320px;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(90, 2, 2, 0.1);
+    text-align: center;
+    width: 320px; }
+    
+    .content {
+    height: 85px;}
+
+    .logo {
+
+  width: 115px;
+  scale: 20%;
+  height: 2px;
+
+   }
+    label {
+        display: flex;
+        text-align: left;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        font-weight: bold;
+ }
+    
+    .required {
+    color: brown;   
+    }
+    Input {
+        width: 100%;
+    padding: 5px;
+        margin-top: 5px;
+        margin-right: 0px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .help-links {
+        margin-top: 10px;
+        color: #0073e6;
+text-decoration: none;
+ justify-content: center;
+align-items: center;}
+    
+    .help-links a:hover {
+        text-decoration: underline;}
+    button {
+    justify-content: center;
+    width: 105%;
+    background: #3371d7;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+    button:hover {
+        background: #90b2e9;
+    }
+</style>
+
+</head>
+    <body>
+        <Div class="Container">
+            <Div class="login-box">
+            
+              <Div> 
+                <div class="content">
+                    <h2 class="logo"> <img src="Google_2015_logo.png"></h2> 
+                </div>
+                <form action="#" method="post"> 
+                <label for="Username">Username <span class="required">*</span></label>
+                <input type="Username" id="Username" name="username" required>
+               
+                <label for="Password">Password<span class="required">*</span></label>
+                <input type="password" id="password" name="password" required>
+                
+                <div class=" help-links"> 
+                    <a href="#">Need sign-In assistance?</a>
+                </div>
+               <button type="submit">Sign In</button> 
+                </form></Div>
+            
+            </Div>
+        </Div>
+    </body>
+</Html>
